@@ -1,8 +1,36 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: grid;
+  justify-content: center;
+  gap: 30px;
 }
 
-a {
-  color: #00B7FF;
+.title {
+  justify-self: center;
+}
+
+.box {
+  box-sizing: border-box;
+  display: grid;
+  min-width: 390px;
+  border: solid black 2px;
+  gap: 10px;
+  padding: 6px;
+}
+
+.msg {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: 1fr;
+}
+
+.user {
+  color: #000000bd;
+}
+
+.text {
+  font-weight: 700;
+}
+
+.date {
+  color: #0000007e;
 }
